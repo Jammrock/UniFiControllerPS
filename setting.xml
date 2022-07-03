@@ -1,0 +1,34 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>UnifiSetting</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>UnifiHost               : unifi.kehr.home:8443_x000D__x000A_SiteName                : vbt53z6c_x000D__x000A_UserName                : Jammrock_x000D__x000A_SkipCertificateCheck    : True_x000D__x000A_SkipHeaderValidation    : False_x000D__x000A_Group                   : UIGroup[]_x000D__x000A_Policy                  : UIPolicyList[]</ToString>
+    <Props>
+      <I32 N="MaxPolicy">99</I32>
+      <I32 N="MaxGroup">99</I32>
+      <Obj N="Group" RefId="1">
+        <TN RefId="1">
+          <T>UIGroup[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST />
+      </Obj>
+      <Obj N="Policy" RefId="2">
+        <TN RefId="2">
+          <T>UIPolicyList[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST />
+      </Obj>
+      <S N="UnifiHost">unifi.kehr.home:8443</S>
+      <S N="SiteName">vbt53z6c</S>
+      <S N="UserName">Jammrock</S>
+      <B N="SkipCertificateCheck">true</B>
+      <B N="SkipHeaderValidation">false</B>
+    </Props>
+  </Obj>
+</Objs>

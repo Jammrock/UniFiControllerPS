@@ -1,0 +1,86 @@
+﻿<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>UIMember</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>kehrabigailf,16:51:b0:04:14:2b,vbt53z6c,</ToString>
+    <Props>
+      <S N="Hostname">kehrabigailf</S>
+      <Obj N="IPAddress" RefId="1">
+        <TN RefId="1">
+          <T>System.Net.IPAddress</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>192.168.1.113</ToString>
+        <Props>
+          <S N="AddressFamily">InterNetwork</S>
+          <B N="IsIPv6Multicast">false</B>
+          <B N="IsIPv6LinkLocal">false</B>
+          <B N="IsIPv6SiteLocal">false</B>
+          <B N="IsIPv6Teredo">false</B>
+          <B N="IsIPv4MappedToIPv6">false</B>
+          <I64 N="Address">1895934144</I64>
+        </Props>
+        <MS>
+          <S N="IPAddressToString">192.168.1.113</S>
+        </MS>
+      </Obj>
+      <S N="MAC">16:51:b0:04:14:2b</S>
+      <S N="Site">vbt53z6c</S>
+      <S N="Id"></S>
+    </Props>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <ToString>DadS10,6a:a0:89:60:7d:0a,vbt53z6c,</ToString>
+    <Props>
+      <S N="Hostname">DadS10</S>
+      <Obj N="IPAddress" RefId="3">
+        <TNRef RefId="1" />
+        <ToString>192.168.1.243</ToString>
+        <Props>
+          <S N="AddressFamily">InterNetwork</S>
+          <B N="IsIPv6Multicast">false</B>
+          <B N="IsIPv6LinkLocal">false</B>
+          <B N="IsIPv6SiteLocal">false</B>
+          <B N="IsIPv6Teredo">false</B>
+          <B N="IsIPv4MappedToIPv6">false</B>
+          <I64 N="Address">4076972224</I64>
+        </Props>
+        <MS>
+          <S N="IPAddressToString">192.168.1.243</S>
+        </MS>
+      </Obj>
+      <S N="MAC">6a:a0:89:60:7d:0a</S>
+      <S N="Site">vbt53z6c</S>
+      <S N="Id"></S>
+    </Props>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <ToString>XBED,60:45:bd:c4:b0:f8,vbt53z6c,</ToString>
+    <Props>
+      <S N="Hostname">XBED</S>
+      <Obj N="IPAddress" RefId="5">
+        <TNRef RefId="1" />
+        <ToString>192.168.1.182</ToString>
+        <Props>
+          <S N="AddressFamily">InterNetwork</S>
+          <B N="IsIPv6Multicast">false</B>
+          <B N="IsIPv6LinkLocal">false</B>
+          <B N="IsIPv6SiteLocal">false</B>
+          <B N="IsIPv6Teredo">false</B>
+          <B N="IsIPv4MappedToIPv6">false</B>
+          <I64 N="Address">3053562048</I64>
+        </Props>
+        <MS>
+          <S N="IPAddressToString">192.168.1.182</S>
+        </MS>
+      </Obj>
+      <S N="MAC">60:45:bd:c4:b0:f8</S>
+      <S N="Site">vbt53z6c</S>
+      <S N="Id"></S>
+    </Props>
+  </Obj>
+</Objs>
